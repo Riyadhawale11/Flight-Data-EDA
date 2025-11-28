@@ -1,50 +1,49 @@
 # ✈️ Flight Price Data Analysis — Python
 
-This project contains an exploratory data analysis (EDA) of a large flight price dataset.  
-The goal of the analysis is to understand how different factors influence flight prices and identify patterns within the data.
+This project involves exploratory data analysis (EDA) on a large flight price dataset.  
+The objective is to understand how different travel-related factors influence ticket prices by cleaning, preparing, and analyzing the dataset in depth.
 
 ---
 
 ## 📘 Overview
-The dataset was cleaned, transformed, and analyzed using Python.  
-Key tasks included handling missing values, converting date/time columns, formatting data types, and exploring relationships between airlines, routes, durations, and ticket prices.
+The dataset required extensive preprocessing due to inconsistent formats, mixed data types, and large volume.  
+The analysis focused on understanding patterns related to airlines, routes, stops, durations, and pricing through detailed data exploration.
 
 ---
 
 ## 🧹 Data Cleaning & Preparation
-- Removed missing or inconsistent records  
-- Converted date, time, and duration fields into usable formats  
-- Standardized categorical columns  
-- Checked for duplicates and corrected data formatting issues  
+The following steps were performed:
+
+- Identified and removed missing or incomplete records  
+- Converted date, time, and duration columns into consistent formats  
+- Standardized airline, source, destination, and route fields  
+- Split and cleaned complex text-based columns  
+- Detected and removed duplicates  
+- Corrected datatype issues across multiple columns  
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
-Performed analysis to understand:
+The EDA focused on understanding:
 
-- Price variation across different airlines  
-- How flight duration impacts pricing  
-- Trends based on source → destination routes  
-- Effect of number of stops on ticket prices  
-- Distribution of flight prices across the entire dataset  
+- How ticket prices vary among different airlines  
+- Differences in price across routes  
+- Influence of number of stops on ticket pricing  
+- Relationship between flight duration and price  
+- General distribution and range of flight prices in the dataset  
 
-Created visualizations to compare:
-
-- Airline vs Price  
-- Stops vs Price  
-- Route patterns  
-- Duration vs Price  
+*Note: EDA was performed using statistical summaries and column-level exploration, without visualizations.*
 
 ---
 
 ## 🛠 Tools & Libraries
-- **Python**
-- **Pandas**
-- **NumPy**
-- **Matplotlib / Seaborn**
-- **Jupyter Notebook**
+- Python  
+- Pandas  
+- NumPy  
+- Jupyter Notebook  
 
 ---
 
 ## 🎯 Purpose
-This project demonstrates practical data analysis skills on a **large, real-world dataset**, including data cleaning, transformation, visualization, and extracting useful insights from complex travel data.
+This project demonstrates the ability to handle, clean, and analyze a **large real-world dataset**, extract meaningful insights, and prepare data for deeper analysis or modeling.
+
